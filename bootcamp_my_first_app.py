@@ -13,5 +13,3 @@ from PIL import Image
 image = Image.open('https://miro.medium.com/max/1400/1*5IFgojJ4nU8f0YKTcjWDrg.jpeg')
 st.image(image, caption='Photo by Miesha Maiden from Pexels')
 
-st.markdown(string = 'hello world'
-string.split())
