@@ -13,7 +13,7 @@ st.write('The compactness of Python can make a developer’s life a lot easier w
 
 st.write('In today’s article, I will discuss 10 Python tips and tricks that will be really helpful for beginners to write more compact code. Knowing these tips and tricks will definitely save you some valuable time.')
 
-st.write('** 1. Walrus operator**')
+st.write('**1. Walrus operator**')
 st.write('The Walrus or := operator is one of the latest additions to python 3.8. It is an assignment operator that lets you assign value to a variable within an expression like conditional statements, loops, etc.')
 st.write('**_Example_**')
 code = '''Mylist = [1,2,3]
@@ -24,6 +24,17 @@ st.code(code,language = 'python')
 st.write('**_Output_**')
 result = '''3'''
 st.code(result,language = 'python')
+
+st.write('**2.Splitting a string**')
+st.write('If you want to split the components of a string into a list you can do that easily using the split() function in python. This will make the string operations a lot easier!')
+st.write('**_Example_**')
+code = '''string = “hello world”
+string.split()'''
+st.code(code,language = 'python')
+
+st.write('**_Output_**')
+result = '''[‘hello’, ‘world’]'''
+st.code(result,language= 'python')
 
 
 
