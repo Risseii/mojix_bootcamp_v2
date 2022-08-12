@@ -15,13 +15,13 @@ st.write('In today’s article, I will discuss 10 Python tips and tricks that wi
 
 st.write('** 1. Walrus operator**')
 st.write('The Walrus or := operator is one of the latest additions to python 3.8. It is an assignment operator that lets you assign value to a variable within an expression like conditional statements, loops, etc.')
-st.subheader('**_Example_**')
+st.write('**_Example_**')
 code = '''Mylist = [1,2,3]
 if(l := len(mylist) > 2)
     print(l)''' 
 st.code(code,language = 'python')
 
-st.subheader('**_Output_**')
+st.write('**_Output_**')
 result = '''3'''
 st.code(result,language = 'python')
 
